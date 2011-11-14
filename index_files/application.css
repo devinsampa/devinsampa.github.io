@@ -61,7 +61,7 @@ a { text-decoration: underline; }
 
 #menu {
 	height: 70px;
-	background: #666 url('/images/bg_menu.jpg') repeat-x;
+	background: #666 url('../images/bg_menu.jpg') repeat-x;
 	border-top: 1px solid #e4e4e4;
 	border-bottom: 1px solid #ccc;
 	margin: 15px 0 50px 0;
@@ -136,7 +136,7 @@ ul#navigation li a:hover {
 	font-size: 12pt;
 	color: #333;
 	text-decoration: none;
-	background: url('/images/ico_twitter.jpg') left center no-repeat;
+	background: url('../images/ico_twitter.jpg') left center no-repeat;
 	padding: 2px 0 0 35px;
 	margin-bottom: 20px;
 }
@@ -147,7 +147,7 @@ ul#navigation li a:hover {
 	font-size: 12pt;
 	color: #333;
 	text-decoration: none;
-	background: url('/images/ico_wave.png') left center no-repeat;
+	background: url('../images/ico_wave.png') left center no-repeat;
 	padding: 2px 0 0 35px;
 	margin-bottom: 20px;
 
@@ -171,7 +171,7 @@ ul#navigation li a:hover {
 	font-size: 10pt;
 	text-decoration: none;
 	color: #333;
-	background: url('/images/ico_twitter_list.jpg') 0 3px no-repeat;
+	background: url('../images/ico_twitter_list.jpg') 0 3px no-repeat;
 	padding-left: 24px;
 }
 
@@ -308,7 +308,7 @@ div.box ul, div.box li {
 
 #content #warning {
 	height: 100px;
-	background: #FFDB70 url('/images/bg_warning.jpg') no-repeat;
+	background: #FFDB70 url('../images/bg_warning.jpg') no-repeat;
 	margin: 0 0 40px 0;
 }
 
