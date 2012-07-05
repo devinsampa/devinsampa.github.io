@@ -4,7 +4,7 @@
 
 .clearfix { height: 1%; }
 .clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
-.hide-text { text-indent: 200%; white-space: nowrap; overflow: hidden; }
+.hide-text { font-size: 0; }
 
 #topo, #content, #lateral {
 	display: block;
@@ -34,7 +34,6 @@
 }
 
 #menu ul {
-	font-size: 12pt;
 	list-style: none;
 	margin: 0 auto;
 	padding: 0 10px;
@@ -81,7 +80,7 @@
 #container h2 {
 	border-bottom: 1px dotted #ccc;
 	color: #F03900;
-	font-size: 12pt;
+	font-size: 14px;
 	margin: 30px 0 10px 0;
 }
 
@@ -124,14 +123,18 @@
 	text-align: center;
 }
 
+#container .museu ul {
+	list-style: disc;
+}
+
 #lateral section {
 	width: 95%;
 }
 
 #data p {
 	background: url('/images/calendario.png') left top no-repeat;
-	font-size: 14pt;
 	height: 70px;
+	font-size: 14px;
 	padding-top: 20px;
 	text-indent: 100px;
 }
@@ -177,7 +180,6 @@
 #twitter a {
 	background: url('/images/ico_twitter.jpg') left center no-repeat;
 	display: block;
-	font-size: 12pt;
 	height: 33px;
 	margin-bottom: 20px;
 	padding: 2px 0 0 35px;
@@ -201,7 +203,6 @@
 	-moz-border-radius: 0.5em;
 	clear: both;
 	color: #900;
-	font-size: 12pt;
 	margin: 30px auto;
 	padding: 15px 10px;
 	width: 80%;
@@ -217,9 +218,10 @@
 }
 
 #rodape #copyright {
-	clear: both;
-	font-size: 9pt;
-	color: #fff;
 	background: #F03900;
+	clear: both;
+	color: #fff;
+	font-size: 9px;
 	padding: 5px 15px;
+	text-align: center;
 }
