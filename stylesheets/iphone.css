@@ -4,7 +4,7 @@
 
 .clearfix { height: 1%; }
 .clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
-.hide-text { font-size: 0; }
+.hide-text { text-indent: 200%; white-space: nowrap; overflow: hidden; font-size: 0; }
 
 #topo, #content, #lateral {
 	display: block;
