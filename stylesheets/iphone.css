@@ -239,7 +239,7 @@
 	margin-top: 30px;
 }
 
-#rodape #aviso {
+#container .aviso {
 	background-color: #FFE26F;
 	border: 2px solid #D4BB5E;
 	border-radius: 0.5em;
@@ -252,7 +252,7 @@
 	width: 80%;
 }
 
-#rodape #aviso a {
+#container .aviso a {
 	color: #900;
 	font-weight: bold;
 }
