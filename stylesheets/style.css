@@ -114,6 +114,7 @@
 
 #container a {
 	color: #333;
+	font-weight: bold;
 	height: 20px;
 	text-decoration: none;
 }
@@ -129,10 +130,6 @@
 
 #container table, th, td {
 	border: 1px solid #333;
-}
-
-#container table a {
-	font-weight: bold;
 }
 
 #container th {
@@ -317,7 +314,6 @@
 
 #container .aviso a {
 	color: #900;
-	font-weight: bold;
 }
 
 #rodape a {
@@ -331,4 +327,18 @@
 	font-size: 10px;
 	padding: 5px 15px;
 	text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+  .youtube_video {
+    height: 500px;
+    width: 640px;
+  }
+}
+
+@media screen and (max-width: 799px) {
+  .youtube_video {
+    height: 250px;
+    width: 320px;
+  }
 }

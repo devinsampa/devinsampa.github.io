@@ -269,3 +269,8 @@
 	padding: 5px 15px;
 	text-align: center;
 }
+
+.youtube_video {
+  height: 240px;
+  width: 320px;
+}
