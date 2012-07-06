@@ -4,7 +4,7 @@
 
 .clearfix { height: 1%; }
 .clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
-.hide-text { text-indent: 200%; white-space: nowrap; overflow: hidden; font-size: 0; }
+.hide-text { text-indent: 200%; white-space: nowrap; overflow: hidden; }
 
 #topo {
 	border-bottom-image: url('/images/line.png');
@@ -123,15 +123,16 @@
 }
 
 #container table {
-	border-collapse:collapse;
+	border-collapse: collapse;
+	background-color: #333;
 }
 
 #container table, th, td {
 	border: 1px solid #333;
 }
 
-#container table {
-	background-color: #333;
+#container table a {
+	font-weight: bold;
 }
 
 #container th {
@@ -147,14 +148,38 @@
 	list-style: disc;
 }
 
+#container .museu a.apresentacao {
+	background: url('/images/slideshare.png') top left no-repeat;
+	display: inline-block;
+	height: 16px;
+	overflow: hidden;
+	text-indent: 200%;
+	white-space: nowrap;
+	width: 16px;
+}
+
+#container .museu a.video {
+	background: url('/images/bliptv.png') top left no-repeat;
+	display: inline-block;
+	height: 16px;
+	overflow: hidden;
+	text-indent: 200%;
+	white-space: nowrap;
+	width: 16px;
+}
+
 #lateral section {
 	float: left;
-	min-height: 150px;
+	min-height: 160px;
 	width: 49%;
 }
 
 #lateral section:nth-child(even) {
 	margin-left: 2%;
+}
+
+#lateral #patrocinio {
+	width: 100%;
 }
 
 #data p {
@@ -217,10 +242,60 @@
 }
 
 .twitter-list li {
-	background: url('/images/ico_twitter_list.jpg') 0 3px no-repeat;
-	padding-left: 24px;
+	border: 1px solid #ccc;
+	display: block;
+	float: left;
 }
 
+.twitter-list li:nth-child(even) {
+	margin: 0 10px;
+}
+
+@media screen and (min-width: 740px) {
+	#container #tinogomes {
+		background: url("http://www.gravatar.com/avatar/9742692d8f4eb9997301de35395e5460?s=80") top left no-repeat;
+		display: block;
+		height: 80px;
+		width: 80px;
+	}
+
+	#container #nuxlli {
+		background: url("http://www.gravatar.com/avatar/f83c0b65baef15dc1ea2b9e5645350ea?s=80") top left no-repeat;
+		display: block;
+		height: 80px;
+		width: 80px;
+	}
+
+	#container #lfcipriani {
+		background: url("http://www.gravatar.com/avatar/31b74dfda914271fa4a30c2296d9ca30?s=80") top left no-repeat;
+		display: block;
+		height: 80px;
+		width: 80px;
+	}
+}
+
+@media screen and (max-width: 739px) {
+	#container #tinogomes {
+		background: url("http://www.gravatar.com/avatar/9742692d8f4eb9997301de35395e5460?s=50") top left no-repeat;
+		display: block;
+		height: 50px;
+		width: 50px;
+	}
+
+	#container #nuxlli {
+		background: url("http://www.gravatar.com/avatar/f83c0b65baef15dc1ea2b9e5645350ea?s=50") top left no-repeat;
+		display: block;
+		height: 50px;
+		width: 50px;
+	}
+
+	#container #lfcipriani {
+		background: url("http://www.gravatar.com/avatar/31b74dfda914271fa4a30c2296d9ca30?s=50") top left no-repeat;
+		display: block;
+		height: 50px;
+		width: 50px;
+	}
+}
 
 #rodape {
 	margin-top: 30px;
