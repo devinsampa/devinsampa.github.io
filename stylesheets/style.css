@@ -175,10 +175,6 @@
 	margin-left: 2%;
 }
 
-#lateral #patrocinio {
-	width: 100%;
-}
-
 #data p {
 	background: url('/images/calendario.png') left top no-repeat;
 	height: 70px;
@@ -206,13 +202,6 @@
 #local address a:hover {
 	border: 0 solid #999;
 	text-decoration: none;
-}
-
-#abrilmidia a {
-	background: url('/images/logo_abrilmidia.jpg') left top no-repeat;
-	display: block;
-	height: 69px;
-	width: 200px;
 }
 
 #divulge-no-twitter a {
@@ -246,6 +235,33 @@
 
 .twitter-list li:nth-child(even) {
 	margin: 0 10px;
+}
+
+#abrilmidia a {
+  background: url('/images/logo_abrilmidia.jpg') left top no-repeat;
+  display: block;
+  height: 69px;
+  width: 200px;
+}
+
+#divulgacao li {
+  display: block;
+  float: left;
+  margin-right: 1%;
+}
+
+#agendatech a {
+  background: url('/images/logo_agendatech.png') left top no-repeat;
+  display: block;
+  height: 79px;
+  width: 200px;
+}
+
+#guj a {
+  background: url('/images/logo_guj.png') left top no-repeat;
+  display: block;
+  height: 79px;
+  width: 200px;
 }
 
 @media screen and (min-width: 740px) {
