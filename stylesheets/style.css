@@ -238,30 +238,30 @@
 }
 
 #abrilmidia a {
-  background: url('/images/logo_abrilmidia.jpg') left top no-repeat;
-  display: block;
-  height: 69px;
-  width: 200px;
+	background: url('/images/logo_abrilmidia.jpg') left top no-repeat;
+	display: block;
+	height: 69px;
+	width: 200px;
 }
 
 #divulgacao li {
-  display: block;
-  float: left;
-  margin-right: 1%;
+	display: block;
+	float: left;
+	margin-right: 1%;
 }
 
 #agendatech a {
-  background: url('/images/logo_agendatech.png') left top no-repeat;
-  display: block;
-  height: 79px;
-  width: 200px;
+	background: url('/images/logo_agendatech.png') left top no-repeat;
+	display: block;
+	height: 79px;
+	width: 200px;
 }
 
 #guj a {
-  background: url('/images/logo_guj.png') left top no-repeat;
-  display: block;
-  height: 79px;
-  width: 200px;
+	background: url('/images/logo_guj.png') left top no-repeat;
+	display: block;
+	height: 79px;
+	width: 200px;
 }
 
 @media screen and (min-width: 740px) {
@@ -345,16 +345,20 @@
 	text-align: center;
 }
 
+.youtube_video {
+	margin-top: 10px;
+}
+
 @media screen and (min-width: 800px) {
-  .youtube_video {
-    height: 500px;
-    width: 640px;
-  }
+	.youtube_video {
+		height: 500px;
+		width: 640px;
+	}
 }
 
 @media screen and (max-width: 799px) {
-  .youtube_video {
-    height: 250px;
-    width: 320px;
-  }
+	.youtube_video {
+		height: 250px;
+		width: 320px;
+	}
 }
