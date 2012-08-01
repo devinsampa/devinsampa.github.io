@@ -147,6 +147,12 @@
 	width: 16px;
 }
 
+#container .speakers section {
+  background-color: #ccc;
+  margin: 10px 0;
+  padding: 5px 20px;
+}
+
 #lateral section {
 	width: 95%;
 }
