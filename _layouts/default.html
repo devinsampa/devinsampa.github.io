@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR">
+<head>
+	<meta http-equiv="cache-control" content="public"/>
+	<meta http-equiv="content-language" content="pt-BR"/>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+	<meta http-equiv="date" content="Wed Oct 21 2009 21:49:23 GMT-0300"/>
+	<meta http-equiv="last-modified" content="Fri Jun 29 2012 01:10:10 GMT-0300"/>
+
+	<meta name="author" content="Celestino Gomes">
+	<meta name="author" content="Everton Ribeiro">
+	<meta name="author" content="Luis Cipriani">
+	<meta name="copyright" content="Since 2009, Dev in Sampa">
+	<meta name="description" content="Dev in Sampa - Encontro anual de desenvolvedores de sistemas em São Paulo, Brasil">
+	<meta name="distribution" content="web" />
+	<meta name="google-site-verification" content="OfxL2RQU8Zc_5NjaO3bqjvM1H4JoKO5hinLPfMvpDdU">
+	<meta name="keywords" content="ruby, python, java, .net, perl, goo, desenvolvimento, software, sistemas, conferência, são paulo, brasil, arquitetura">
+	<meta name="language" content="Portuguese">
+	<meta name="reply-to" content="contato@devinsampa.com.br">
+	<meta name="revisit-after" content="1 month">
+	<meta name="robots" content="all">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+
+	<title>{{ page.title }} - {{ site.title }}</title>
+
+	<link rel="canonical" href="http://devinsampa.com.br{{ page.url | replace:'index.html','' }}" />
+	<link rel="stylesheet" href="/stylesheets/style.css" type="text/css" media="screen and (min-width: 500px)" charset="utf-8">
+	<link rel="stylesheet" href="/stylesheets/iphone.css" type="text/css" media="screen and (max-width: 499px)" charset="utf-8">
+
+</head>
+<body>
+	<div id="container">
+		{% include header.html %}
+		{{ content }}
+		{% include lateral.html %}
+		{% include footer.html %}
+	</div>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" async="" src="./javascripts/ga.js"></script>
+
+		<script type="text/javascript">
+		{% include google_analytics.js %}
+		{% include google_maps.js %}
+		
+	</script>
+</body>
+</html>

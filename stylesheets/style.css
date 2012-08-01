@@ -141,6 +141,10 @@
 	text-align: center;
 }
 
+#container .extra td {
+  background-color: #eee;
+}
+
 #container .museu ul {
 	list-style: disc;
 }
@@ -163,6 +167,12 @@
 	text-indent: 200%;
 	white-space: nowrap;
 	width: 16px;
+}
+
+#container .speakers section {
+  background-color: #ccc;
+  margin: 10px 0;
+  padding: 5px 20px;
 }
 
 #lateral section {
@@ -323,9 +333,9 @@
 	clear: both;
 	color: #900;
 	font-size: 16px;
-	margin: 30px auto;
+  margin: 30px auto;
 	padding: 15px 10px;
-	width: 80%;
+	width: 100%;
 }
 
 #container .aviso a {
