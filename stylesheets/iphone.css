@@ -147,7 +147,7 @@
 	width: 16px;
 }
 
-#container .speakers section {
+#container .speaker {
   background-color: #ccc;
   margin: 10px 0;
   padding: 5px 20px;
@@ -227,6 +227,13 @@
   width: 200px;
 }
 
+#grokpodcast a {
+  background: url('/images/logo_grok.png') left top no-repeat;
+  display: block;
+  height: 79px;
+  width: 200px;
+}
+
 #guj a {
   background: url('/images/logo_guj.png') left top no-repeat;
   display: block;
@@ -270,7 +277,6 @@
 	color: #900;
 	margin: 30px auto;
 	padding: 15px 10px;
-	width: 80%;
 }
 
 #container .aviso a {
