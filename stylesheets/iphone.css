@@ -42,8 +42,7 @@
 #menu ul li {
 	display: block;
 	float: left;
-	margin-right: 25px;
-	min-width: 75px;
+	width: 32%;
 	text-align: center;
 }
 
