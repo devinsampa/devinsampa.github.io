@@ -119,6 +119,28 @@ h2 {
   height: 100%;
 }
 
+.local address {
+  display: block;
+}
+
+.local address a {
+  background-color: #F03900;
+  border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  color: #fff;
+  display: inline-block;
+  margin-left: 5px;
+  padding: 5px 20px;
+  text-align: center;
+}
+
+.local address a:hover {
+  border: 0 solid #999;
+  text-decoration: none;
+  color: #000;
+}
+
 table {
   border-collapse: collapse;
   background-color: #333;
@@ -139,4 +161,16 @@ td {
 
 tr td:first-child {
   white-space: nowrap;
+}
+
+footer {
+  background: #333;
+  font-size: 10px;
+  padding: 5px 15px;
+  margin-top: 30px;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
 }
