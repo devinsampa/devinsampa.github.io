@@ -9,7 +9,8 @@ body {
   font-size: .9em;
 }
 
-.container {
+.container, aside {
+  display: block;
   margin: 0 auto;
   width: 860px;
   padding: 0 10px;
@@ -163,11 +164,126 @@ tr td:first-child {
   white-space: nowrap;
 }
 
+/* Lateral */
+aside {
+  margin-bottom: 10px;
+}
+
+aside section {
+  float: left;
+  width: 50%;
+  height: 150px;
+}
+ 
+aside ul {
+  list-style: none;
+  float: left;
+  clear: both;
+}
+
+aside li {
+  display: block;
+  float: left;
+}
+
+aside a {
+  border: 1px solid #ccc;
+  text-indent: 200%;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+  float: left;
+  margin-right: 10px;
+}
+
+.organizacao a {
+  height: 80px;
+  width: 80px;  
+}
+  
+#tinogomes {
+  background: url("http://www.gravatar.com/avatar/9742692d8f4eb9997301de35395e5460?s=80") top left no-repeat;
+}
+
+#nuxlli {
+  background: url("http://www.gravatar.com/avatar/f83c0b65baef15dc1ea2b9e5645350ea?s=80") top left no-repeat;
+}
+
+#lfcipriani {
+  background: url("http://www.gravatar.com/avatar/31b74dfda914271fa4a30c2296d9ca30?s=80") top left no-repeat;
+}
+
+@media screen and (max-width: 739px) {
+  .organizacao a {
+    height: 50px;
+    width: 50px;
+  }
+  
+  #tinogomes {
+    background: url("http://www.gravatar.com/avatar/9742692d8f4eb9997301de35395e5460?s=50") top left no-repeat;
+  }
+
+  #nuxlli {
+    background: url("http://www.gravatar.com/avatar/f83c0b65baef15dc1ea2b9e5645350ea?s=50") top left no-repeat;
+  }
+
+  #lfcipriani {
+    background: url("http://www.gravatar.com/avatar/31b74dfda914271fa4a30c2296d9ca30?s=50") top left no-repeat;
+  }
+}
+
+#divulge-no-twitter a {
+  background: url('/images/banner_dev_in_sampa.jpg') left top no-repeat;
+  height: 60px;
+  width: 180px;
+}
+
+#twitter a {
+  background: url('/images/ico_twitter.jpg') left center no-repeat;
+  height: 33px;
+  margin-bottom: 20px;
+  padding: 2px 0 0 35px;
+  width: 110px;
+  text-indent: 10px;
+  border: none;
+}
+
+#agaelebe a {
+  background: url('/images/logo_agaelebe.png') left top no-repeat;
+  height: 60px;
+  width: 180px;
+}
+
+#abrilmidia a {
+  background: url('/images/logo_abrilmidia.jpg') left top no-repeat;
+  display: block;
+  height: 60px;
+  width: 180px;
+}
+
+#agendatech a {
+  background: url('/images/logo_agendatech.png') left top no-repeat;
+  height: 60px;
+  width: 180px;
+}
+
+#grokpodcast a {
+  background: url('/images/logo_grok.png') left -10px no-repeat;
+  height: 60px;
+  width: 180px;
+}
+
+#guj a {
+  background: url('/images/logo_guj.png') left -10px no-repeat;
+  height: 60px;
+  width: 180px;
+}
+
 footer {
+  clear: both;
   background: #333;
   font-size: 10px;
   padding: 5px 15px;
-  margin-top: 30px;
 }
 
 footer p {

@@ -1,9 +1,9 @@
-.container {
+.container, aside {
   margin: 0 auto;
   width: auto;
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 650px) {
   .main {
     height: 82px;
     text-align: center;
@@ -27,5 +27,21 @@
   
   .data p {
     font-size: 20px;
+  }
+}
+
+#divulgacao {
+  height: 200px;
+}
+
+@media screen and (max-width: 550px) {
+  aside section {
+    clear: both;
+    width: 100%;
+    height: auto;
+  }
+  
+  #divulgacao {
+    height: auto;
   }
 }
