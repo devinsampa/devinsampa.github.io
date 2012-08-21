@@ -1,0 +1,31 @@
+.container {
+  margin: 0 auto;
+  width: auto;
+}
+
+@media screen and (max-width: 620px) {
+  .main {
+    height: 82px;
+    text-align: center;
+  }
+  
+  .main .logo {
+    float: none;
+    margin: 0 auto;
+  }
+
+  .main ul {
+    padding-top: 10px;
+    float: none;
+    margin: 0 auto;
+  }
+  
+  .videoWrapper {
+    width: auto;
+    margin: 10px auto;
+  }
+  
+  .data p {
+    font-size: 20px;
+  }
+}
