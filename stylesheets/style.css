@@ -17,7 +17,7 @@ body {
 }
 
 .container a {
-  color: #333;
+//  color: #333;
   font-weight: bold;
   height: 20px;
   text-decoration: none;
@@ -164,6 +164,15 @@ tr td:first-child {
   white-space: nowrap;
 }
 
+.museu h3, .speaker h3 {
+  font-size: 1.1em;
+  margin: 5px 0;
+}
+
+.museu p, .speaker p {
+  margin: 1em 0;
+}
+
 /* Lateral */
 aside {
   margin-bottom: 10px;
@@ -200,7 +209,7 @@ aside a {
   height: 80px;
   width: 80px;  
 }
-  
+
 #tinogomes {
   background: url("http://www.gravatar.com/avatar/9742692d8f4eb9997301de35395e5460?s=80") top left no-repeat;
 }

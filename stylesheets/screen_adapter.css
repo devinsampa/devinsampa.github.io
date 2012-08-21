@@ -3,6 +3,10 @@
   width: auto;
 }
 
+.museu li {
+  margin: 0 0 5px -20px;
+}
+
 @media screen and (max-width: 650px) {
   .main {
     height: 82px;
