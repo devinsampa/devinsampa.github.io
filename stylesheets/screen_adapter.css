@@ -16,7 +16,7 @@
     height: 82px;
     text-align: center;
   }
-  
+
   .main .logo {
     float: none;
     margin: 0 auto;
@@ -27,12 +27,12 @@
     float: none;
     margin: 0 auto;
   }
-  
+
   .videoWrapper {
     width: auto;
     margin: 10px auto;
   }
-  
+
   .data p {
     font-size: 20px;
   }
@@ -48,8 +48,12 @@
     width: 100%;
     height: auto;
   }
-  
+
   #divulgacao {
     height: auto;
+  }
+
+  header.main ul {
+    font-size: 11px;
   }
 }
