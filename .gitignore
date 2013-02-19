@@ -1,2 +1,6 @@
 .rvmrc
 _site
+Gemfile
+Gemfile.lock
+Rakefile
+
