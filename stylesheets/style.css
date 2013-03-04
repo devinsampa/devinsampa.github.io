@@ -63,6 +63,7 @@ body {
   margin: 0 auto;
   padding: 0 5px;
   float: right;
+  width: 274px;
   word-spacing: 10px;
 }
 
@@ -182,7 +183,7 @@ aside section {
   width: 50%;
   height: 150px;
 }
- 
+
 aside ul {
   list-style: none;
   float: left;
@@ -206,7 +207,7 @@ aside a {
 
 .organizacao a {
   height: 80px;
-  width: 80px;  
+  width: 80px;
 }
 
 #tinogomes {
@@ -226,7 +227,7 @@ aside a {
     height: 50px;
     width: 50px;
   }
-  
+
   #tinogomes {
     background: url("http://www.gravatar.com/avatar/9742692d8f4eb9997301de35395e5460?s=50") top left no-repeat;
   }
