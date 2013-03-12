@@ -263,8 +263,21 @@ aside li a {
   width: 180px;
 }
 
+#novatec a {
+  background: url('/images/logo_novatec.png') center center no-repeat;
+  height: 60px;
+  width: 180px;
+}
+
 #abrilmidia a {
   background: url('/images/logo_abrilmidia.jpg') left top no-repeat;
+  display: block;
+  height: 60px;
+  width: 180px;
+}
+
+#zigotto a {
+  background: url('/images/logo_zigotto.png') center top no-repeat;
   display: block;
   height: 60px;
   width: 180px;
