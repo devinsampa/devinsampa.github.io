@@ -92,6 +92,12 @@ h2 {
   margin: 30px 0 10px 0;
 }
 
+h3 {
+  font-size: 1.1em;
+  margin: 5px 0;
+}
+
+
 /* Sections */
 .data p {
   background: url('/images/calendario.png') left top no-repeat;
@@ -170,12 +176,7 @@ tr td:first-child {
   white-space: nowrap;
 }
 
-.museu h3, .speaker h3 {
-  font-size: 1.1em;
-  margin: 5px 0;
-}
-
-.museu p, .speaker p {
+.museu p, .speaker p, .presentation p {
   margin: 1em 0;
 }
 
