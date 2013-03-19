@@ -270,7 +270,7 @@ aside li a {
 }
 
 #novatec a {
-  background: url('/images/logo_novatec.png') center center no-repeat;
+  background: url('/images/logo_novatec.png') left top no-repeat;
   height: 60px;
   width: 180px;
 }
@@ -295,14 +295,20 @@ aside li a {
   width: 180px;
 }
 
+#pythonbrasil a {
+  background: url('/images/logo_pythonbrasil.png') left top no-repeat;
+  height: 60px;
+  width: 180px;
+}
+
 #grokpodcast a {
-  background: url('/images/logo_grok.png') left -10px no-repeat;
+  background: url('/images/logo_grok.png') left top no-repeat;
   height: 60px;
   width: 180px;
 }
 
 #guj a {
-  background: url('/images/logo_guj.png') left -10px no-repeat;
+  background: url('/images/logo_guj.png') left top no-repeat;
   height: 60px;
   width: 180px;
 }
