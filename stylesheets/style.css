@@ -185,6 +185,10 @@ aside {
   margin-bottom: 10px;
 }
 
+#patrocinio, #apoio {
+  height: 190px;
+}
+
 aside section {
   float: left;
   width: 50%;
@@ -200,6 +204,7 @@ aside ul {
 aside li {
   display: block;
   float: left;
+  margin-bottom: 10px;
 }
 
 aside li a {
@@ -285,6 +290,13 @@ aside li a {
 
 #zigotto a {
   background: url('/images/logo_zigotto.png') center top no-repeat;
+  display: block;
+  height: 60px;
+  width: 180px;
+}
+
+#wayra a {
+  background: url('/images/logo_wayra.png') center top no-repeat;
   display: block;
   height: 60px;
   width: 180px;
