@@ -185,14 +185,13 @@ aside {
   margin-bottom: 10px;
 }
 
-#patrocinio, #apoio {
-  height: 190px;
-}
-
 aside section {
   float: left;
   width: 50%;
-  height: 150px;
+}
+
+aside section:nth-child(odd) {
+	clear: both;
 }
 
 aside ul {
