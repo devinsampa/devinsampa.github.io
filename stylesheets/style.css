@@ -275,9 +275,15 @@ aside li a {
 }
 
 #novatec a {
-  background: url('/images/logo_novatec.png') left top no-repeat;
-  height: 60px;
-  width: 180px;
+	background: url('/images/logo_novatec.png') left top no-repeat;
+	height: 60px;
+	width: 180px;
+}
+
+#casadocodigo a {
+	background: url('/images/logo_casadocodigo.png') left top no-repeat;
+	height: 60px;
+	width: 180px;
 }
 
 #abrilmidia a {
