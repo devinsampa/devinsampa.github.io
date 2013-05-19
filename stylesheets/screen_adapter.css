@@ -1,59 +1,77 @@
 .container, aside {
-  margin: 0 auto;
-  width: auto;
-}
-
-.museu li {
-  margin: 0 0 5px -20px;
+	margin: 0 auto;
+	width: auto;
 }
 
 .aviso {
-  padding: 10px 10px;
+	padding: 10px 10px;
 }
 
+@media screen and (max-width: 739px) {
+	#organizacao a {
+		height: 50px;
+		width: 50px;
+	}
+
+	#tinogomes {
+		background: url("http://www.gravatar.com/avatar/9742692d8f4eb9997301de35395e5460?s=50") top left no-repeat;
+	}
+
+	#nuxlli {
+		background: url("http://www.gravatar.com/avatar/f83c0b65baef15dc1ea2b9e5645350ea?s=50") top left no-repeat;
+	}
+
+	#lfcipriani {
+		background: url("http://www.gravatar.com/avatar/31b74dfda914271fa4a30c2296d9ca30?s=50") top left no-repeat;
+	}
+}
+
+
 @media screen and (max-width: 650px) {
-  .main {
-    height: 82px;
-    text-align: center;
-  }
+	.main {
+		height: 82px;
+		text-align: center;
+	}
 
-  .main .logo {
-    float: none;
-    margin: 0 auto;
-  }
+	.main .logo {
+		float: none;
+		margin: 0 auto;
+	}
 
-  .main ul {
-    padding-top: 10px;
-    float: none;
-    margin: 0 auto;
-  }
+	.main ul {
+		float: none;
+		margin: 0 auto;
+		padding-top: 10px;
+		text-align: center;
+	}
 
-  .videoWrapper {
-    width: auto;
-    margin: 10px auto;
-  }
+	.videoWrapper {
+		float: none;
+		margin: 10px auto;
+		width: auto;
+	}
 
-  .data p {
-    font-size: 20px;
-  }
+	.data p {
+		font-size: 20px;
+	}
 }
 
 #divulgacao {
-  height: 200px;
+	height: 200px;
 }
 
 @media screen and (max-width: 550px) {
-  aside section {
-    clear: both;
-    width: 100%;
-    height: auto;
-  }
+	aside section {
+		clear: both;
+		width: 100%;
+		height: auto;
+	}
 
-  #divulgacao {
-    height: auto;
-  }
+	#divulgacao {
+		height: auto;
+	}
 
-  header.main ul {
-    font-size: 11px;
-  }
+	header.main ul {
+		font-size: 11px;
+	}
 }
